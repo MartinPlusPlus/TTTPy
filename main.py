@@ -11,3 +11,5 @@ if __name__ == "__main__":
             table.move(int(x), int(y))
         else:
             print("Invalid input, please enter again...")
+
+        table.check_winner()
